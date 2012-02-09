@@ -60,7 +60,7 @@
       (merge q {:type :update
                 :fields {}
                 :where []
-                :results :keys}))))
+                :results :update-keys}))))
 
 (defn delete* 
   "Create an empty delete query. Ent can either be an entity defined by defentity,
